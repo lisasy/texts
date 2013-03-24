@@ -1,0 +1,346 @@
+@green : #27be37;
+@tan: #e3df98;
+@white: #ffffff;
+
+@charcoal: #444444;
+@medium: #666666;
+@lighttext: #aaa7a7;
+@button: #d4d2d2;
+@side: #edecec;
+@body: #f7f7f7;
+
+/**************** less: padding and margins *************/
+.padding-top-bottom-large (@value: 60px){
+	padding-top: @value;
+	padding-bottom: @value;
+}
+
+.padding-top-bottom-medium (@value: 40px){
+	padding-top: @value;
+	padding-bottom: @value;
+}
+
+.padding-top-bottom-small (@value: 20px){
+	padding-top: @value;
+	padding-bottom: @value;
+}
+
+.padding-top-large(@value: 60px){
+	padding-top: @value;
+}
+
+.padding-top-medium(@value: 40px){
+	padding-top: @value;
+}
+
+.padding-top-small(@value: 20px){
+	padding-top: @value;
+}
+
+.padding-bottom-large (@value: 60px){
+	padding-bottom: @value;
+}
+
+.padding-bottom-medium (@value: 40px){
+	padding-bottom: @value;
+}
+
+.padding-bottom-small (@value: 20px){
+	padding-bottom: @value;
+}
+
+.padding-left-right-large(@value:60px){
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.padding-left-right-medium(@value:40px){
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.padding-left-right-small(@value:20px){
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+/**********************************
+Global Assets
+***********************************/
+.body-content{
+	.padding-top-bottom-medium;
+}
+
+h1,h2,h3,h4,h5,h6,p,small,em,a,strong,.large-number{
+	font-family: 'proxima-nova', Helvetica;
+}
+
+.large-number{
+	font-weight: bold;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color: @green;
+	&:hover{
+		color: @green*2/3;
+		text-decoration: none;
+	}
+}
+
+/**********************************
+Global Layout
+***********************************/
+#the-body{
+	background:@side;
+}
+
+
+/**********************************
+Global Bootstrap Edits
+***********************************/
+
+/*-- Buttons --*/
+.btn{
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 10px 20px;
+	background: @button;
+	color: @charcoal;
+	&:hover{
+		color: @white;
+		background: @medium;
+	}
+}
+.btn-green{
+	background: @green;
+	color: @white;
+	&:hover{
+		background: @green*2/3;
+		color: @white;
+	}
+}
+.btn-tan{
+	background: @tan;
+}
+.btn-gray{
+	background: @button;
+}
+.btn-danger{
+	background: #9d261d;
+	color: @white;
+}
+
+/*-- Nav Pills --*/
+.nav-pills{
+	li a{
+		border-radius: 0;
+		color: @medium;
+	}
+	li.active a{
+		background: @medium;
+		&:hover{
+			background:@green;
+		}
+	}
+}
+
+/**********************************
+Admin Bar
+***********************************/
+.navbar-inner{
+	background: @charcoal;
+	.admin-prof{
+		.btn{
+			background: @charcoal;
+			color: @white;
+			text-shadow: none;
+		}
+		#profile-thumb{
+			img{
+				width: 24px;
+				height: auto;
+			}
+		}
+		a.dropdown-toggle{
+			border-radius: none;
+			&:active{
+				border-radius: none;
+			}
+		}
+		ul.dropdown-menu{
+			li:hover a{
+				background: @green;
+			}
+		}
+	}
+}
+
+/**********************************
+Profile Page 
+***********************************/
+
+#profile-header{
+	//background: @tan;
+	.profile-image{
+		border: 4px solid @white;
+	}
+}
+
+ul#profile-snapshot{
+	margin-top: -50px;
+	padding-left: 230px;
+	//display: inline-block;
+	background: @charcoal;
+	li{
+		display: inline-block;
+		list-style: none;
+		color: @lighttext;
+		padding: 16px;
+		margin-right: 50px;
+		text-align: center;
+		.large-number{
+			color: @tan;
+			font-size: 1.6em;
+		}
+	}
+	.membership{
+		p{ margin: 0;text-align:left;}
+	}
+	.friends,.books-bought,.books-sold{
+		p{
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
+}
+
+#profile-body{
+	background:@body;
+	margin-top: -10px;
+}
+nav#profile-sidebar{
+	background: @side;
+	margin-left: 0px;
+	ul.nav-list:first-child{
+		padding-top: 74px;
+	}
+	ul.nav-list{
+		.padding-top-bottom-medium;
+		li.active a{
+			background: @tan;
+			box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
+		}
+		li a{
+			color: @charcoal;
+			font-weight: bold;
+			padding: 8px 20px;
+			&:hover{
+				background: @button;
+				box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
+			}
+		}
+	}
+}
+#profile-content{
+	background: @body;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 30px;
+	header{
+		margin-right: -30px;
+		background: @white;
+		.padding-top-bottom-small;	
+	}
+	article{
+		.padding-top-bottom-medium;
+		table.activity{
+			background: @white;
+		}
+	}
+}
+
+/**********************************
+Inventory/Wishlist
+***********************************/
+#myModal{
+	width: 700px;
+	.modal-body{
+		.primary-view{
+			.padding-bottom-small;
+			caption{
+				.padding-bottom-small;
+				ul.nav{
+					margin-left: 200px;
+				}
+			}
+		}
+		.secondary-view{
+			caption{
+				.padding-bottom-small;
+			}
+		}
+	}
+}
+
+/**********************************
+Inventory/Wishlist
+***********************************/
+
+.accordion{
+	background: @white;
+	.accordion-heading{
+		font-size: 1.3em;
+		padding: 20px 10px;
+	}
+}
+
+/**********************************
+The Book Assets
+***********************************/
+
+/***
+1. Tall Block (standard)
+2. Horizontal Block
+***/
+
+.book-asset{
+	background: @white;
+	padding: 5px;
+	border: 1px solid @side;
+	.book-description{
+		min-height: 140px;
+		h5,p{
+			line-height:1.1em;
+			margin:1px 0px;
+		}
+
+	}
+	a.btn{
+		margin: -5px;
+		display: block;
+	}
+}
+
+.xbook{
+	text-align: center;
+}
+
+/**********************************
+Footer
+***********************************/
+#footer{
+	background: @side;
+	.padding-top-large;
+	.padding-bottom-small;
+	ul{
+		.padding-bottom-medium;
+	}
+}
