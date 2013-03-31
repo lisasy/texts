@@ -5,13 +5,6 @@
 
 <div class="body-content">
 
-<div class="container">
-<div id="profile-header" class="row">
-    <span class="span2"><img class="profile-image" src="img/lisa.jpg"></span>
-    <span class="span8"><h1>Lisa Sy</h1></span>
-    <span class="span2 pull-right"><a class="btn btn-green">View public profile</a></span>
-</div>
-
 <?php include 'profile-snapshot.php' ?>
 
 </div>

@@ -69,6 +69,10 @@
 /**********************************
 Global Assets
 ***********************************/
+body{
+	//background: url('../img/white-bg.png') repeat;
+}
+
 .body-content{
 	.padding-top-bottom-medium;
 }
@@ -87,10 +91,33 @@ li{
 
 a{
 	color: @green;
+	.transitions;
 	&:hover{
 		color: @green*2/3;
 		text-decoration: none;
 	}
+}
+
+/*-- transitions --*/
+
+
+/**********************************
+Global LESS Mix-Ins
+***********************************/
+
+.letterpress-one{
+	text-shadow: 0 1px 1px @white;
+}
+
+.letterpress-two{
+	text-shadow: 0 1px 1px @white;
+}
+
+.transitions{
+	-webkit-transition: all 0.1s ease-in-out;  
+   	-moz-transition: all 0.1s ease-in-out;  
+   	-o-transition: all 0.1s ease-in-out;  
+   	transition: all 0.1s ease-in-out; 
 }
 
 /**********************************
@@ -107,13 +134,14 @@ Global Bootstrap Edits
 
 /*-- Buttons --*/
 .btn{
-	border-radius: 0;
+	border-radius: 3px;
 	border: none;
 	box-shadow: none;
 	text-shadow: none;
 	padding: 10px 20px;
 	background: @button;
 	color: @charcoal;
+	.transitions;
 	&:hover{
 		color: @white;
 		background: @medium;
@@ -122,6 +150,8 @@ Global Bootstrap Edits
 .btn-green{
 	background: @green;
 	color: @white;
+	text-shadow: none;
+	font-family: "proxima-nova";
 	&:hover{
 		background: @green*2/3;
 		color: @white;
@@ -129,6 +159,10 @@ Global Bootstrap Edits
 }
 .btn-tan{
 	background: @tan;
+	&:hover{
+		background: @tan*3/4;
+		color: @charcoal;
+	}
 }
 .btn-gray{
 	background: @button;
@@ -141,7 +175,8 @@ Global Bootstrap Edits
 /*-- Nav Pills --*/
 .nav-pills{
 	li a{
-		border-radius: 0;
+		border-radius: 3px;
+		border: 1px solid @side;
 		color: @medium;
 	}
 	li.active a{
@@ -157,6 +192,9 @@ Admin Bar
 ***********************************/
 .navbar-inner{
 	background: @charcoal;
+	.form-search{
+		margin-top: 10px;
+	}
 	.admin-prof{
 		.btn{
 			background: @charcoal;
@@ -189,8 +227,18 @@ Profile Page
 
 #profile-header{
 	//background: @tan;
+	padding-bottom: 14px;
 	.profile-image{
 		border: 4px solid @white;
+	}
+}
+
+ul#profile-action-buttons{
+	li a{
+		margin-bottom: 8px;
+	}
+	li a.btn-edit{
+		padding: 10px 40px;
 	}
 }
 
@@ -198,18 +246,30 @@ ul#profile-snapshot{
 	margin-top: -50px;
 	padding-left: 230px;
 	//display: inline-block;
-	background: @charcoal;
+	//background: @charcoal;
+	background: url('../img/dark-pattern.png') repeat;
 	li{
+		border-left:1px solid rgba(255,255,255,0.1);
+		border-right: 1px solid #000;
 		display: inline-block;
 		list-style: none;
 		color: @lighttext;
-		padding: 16px;
-		margin-right: 50px;
+		font-weight: 200;
+		padding: 16px 24px;
+		margin-left: -4px;
 		text-align: center;
+		text-shadow: 0 -1px 1px #000;
 		.large-number{
 			color: @tan;
+			text-shadow: 0 -1px 1px #000;
 			font-size: 1.6em;
 		}
+	}
+	li:first-child{
+		border-left:none;
+	}
+	li:last-child{
+		border-right: none;
 	}
 	.membership{
 		p{ margin: 0;text-align:left;}
@@ -217,7 +277,7 @@ ul#profile-snapshot{
 	.friends,.books-bought,.books-sold{
 		p{
 			text-transform: uppercase;
-			font-weight: bold;
+			font-weight: light;
 		}
 	}
 }
@@ -237,15 +297,24 @@ nav#profile-sidebar{
 		li.active a{
 			background: @tan;
 			box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
+			border-top:none;
 		}
 		li a{
 			color: @charcoal;
 			font-weight: bold;
 			padding: 8px 20px;
+			border-top: 1px solid @white;
+			border-bottom: 1px solid @lighttext;
 			&:hover{
 				background: @button;
 				box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
 			}
+		}
+		li:first-child a{
+			border-top: none;
+		}
+		li:last-child a{
+			border-bottom: none;
 		}
 	}
 }
@@ -303,6 +372,182 @@ Inventory/Wishlist
 }
 
 /**********************************
+Transaction/Message Page
+***********************************/
+
+/*-- Main Body --*/
+
+.pull-up{
+	margin-top: -40px;
+}
+
+header{
+	background: @white;
+	.padding-top-medium;
+	img{
+		vertical-align: bottom;
+	}
+}
+
+#message-input{
+	//background: @charcoal;
+	background: url('../img/dark-pattern.png') repeat;
+	.padding-top-bottom-small;
+	textarea{
+		box-shadow: inset 0 -10px 30px rgba(0,0,0,0.2);
+		margin: 40px 0;
+		display: block;
+		width: 90%;
+		height: 100px;
+		border-bottom: 1px solid rgba(255,255,255,0.3);
+	}
+}
+
+#message-chat{
+	background: @body;
+	.message-box{
+		margin: 40px 30px 40px 0;
+		padding-left: 5px;
+		border: 1px solid @lighttext;
+		.user-me{
+			background: @white;
+		}
+	}
+}
+
+
+/*-- Sidebar --*/
+#transaction-sidebar{
+	.letterpress-two;
+	background: @side;
+	margin-left: 0;
+	padding: 15px;
+	a.xbook, .center{
+		margin: 0 auto;
+		display: block;
+		width: auto;
+	}
+	.book-list{
+
+		.box{
+			//border-top: 1px solid rgba(0,0,0,0.3);
+			border:1px solid rgba(0,0,0,0.3);
+			border-radius: 3px;
+			background: @white;
+			max-height: 250px;
+			overflow: scroll;
+			overflow-x: hidden;
+			margin-bottom: 10px;
+			li.book-asset{
+				background: @side;
+				border-bottom: 1px solid @lighttext;
+				border-radius: 0;
+				//border-left: 12px solid @green;
+				border-top: 1px solid @white;
+				clear: both;
+				display: inline-block;
+				margin-top: -5px;
+				margin-left: -20px;
+				max-height: 95px;
+				width: 100%;
+				.letterpress-one;
+				.book-thumb{
+					width: 50px;
+					float: left;
+				}
+				.book-description{
+					width: 250px;
+					float: right;
+					p{
+						color: @medium;
+					}
+					em{
+						font-size: 0.8em;
+					}
+				}
+			}
+			li.book-asset:hover{
+				background: @button;
+			}
+		}
+	}
+	article.logistics{
+		form{
+			input{
+				padding: 20px;
+				width: 85%;
+				font-size: 1.4em;
+			}
+			button{
+				margin-bottom: 20px;
+			}
+			button.confirm{
+				width: 100%;
+				padding: 15px;
+			}
+		}
+	}
+}
+
+/**********************************
+Find Books Page
+***********************************/
+form.find-books-form{
+	button{
+		padding: 5px 10px;
+	}
+}
+
+.scrollbox{
+	border: 1px solid @lighttext;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	overflow: scroll;
+	max-height: 200px;
+	ul{
+		li a{
+			color: @charcoal;
+		}
+		li:nth-child(even) a{
+			background: @body;
+			&:hover{
+				background: @side;
+			}
+		}
+	}
+}
+
+ul.course-listing{
+	position: relative;
+}
+
+li.back a{
+	background: @tan;
+	border-bottom: 1px solid @side;
+	&:hover{
+		background: @button;
+	}
+}
+
+.find-nav, .select-box, .added-asset{
+	border-top: 5px solid @charcoal;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*-- icon animation --*/
+.icon{
+	display: none;
+}
+
+.book-asset-hor:hover .icon{
+	display: block;
+}
+
+
+
+/**********************************
 The Book Assets
 ***********************************/
 
@@ -311,11 +556,14 @@ The Book Assets
 2. Horizontal Block
 ***/
 
+/*-- Standard/Tall --*/
 .book-asset{
 	background: @white;
+	border-radius: 3px;
 	padding: 5px;
-	border: 1px solid @side;
+	border: 1px solid @button;
 	.book-description{
+		padding-top:10px;
 		min-height: 140px;
 		h5,p{
 			line-height:1.1em;
@@ -333,6 +581,57 @@ The Book Assets
 	text-align: center;
 }
 
+/*-- Horizontal --*/
+.book-asset-hor{
+	background: @side;
+	border-bottom: 1px solid @lighttext;
+	border-radius: 0;
+	border-top: 1px solid @white;
+	clear: both;
+	display: inline-block;
+	margin-top: -5px;
+	// margin-left: -20px;
+	margin-left:0;
+	margin-right:0;
+	min-height: 95px;
+	width: 100%;
+	.letterpress-one;
+	.book-thumb{
+		padding-top: 10px;
+		padding-left: 10px;
+		width: 50px;
+		float: left;
+	}
+	.book-description{
+		margin-left: 10px;
+		width: 220px;
+		float: left;
+		h5,p,em{
+			line-height:1.0em;
+		}
+		p{
+			color: @medium;
+			margin: 1px;
+		}
+		em{
+			font-size: 0.8em;
+		}
+	}
+	.icon{
+		float:right;
+		width: 30px;
+		margin-top:40px;
+	}
+}
+.book-asset-hor:first-child{
+	margin-top:0;
+}
+.book-asset-hor:hover{
+	background: @button;
+	cursor: pointer;
+}
+
+
 /**********************************
 Footer
 ***********************************/
@@ -342,5 +641,11 @@ Footer
 	.padding-bottom-small;
 	ul{
 		.padding-bottom-medium;
+	}
+	a{
+		color:@medium;
+		&:hover{
+			color:@charcoal;
+		}
 	}
 }

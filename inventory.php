@@ -5,13 +5,6 @@
 
 <div class="body-content">
 
-<div class="container">
-<div id="profile-header" class="row">
-    <span class="span2"><img class="profile-image" src="img/lisa.jpg"></span>
-    <span class="span8"><h1>Lisa Sy</h1></span>
-    <span class="span2 pull-right"><a class="btn btn-green">View public profile</a></span>
-</div>
-
 <?php include 'profile-snapshot.php' ?>
 
 </div>
@@ -35,10 +28,10 @@
         </nav>
         <section id="profile-content" class="span9">
             <header class="row">
-                <div class="span5">
+                <div class="span4">
                     <h2>My Inventory</h2>
                 </div>
-                <div class="span4">
+                <div class="span5">
                     <ul class="nav nav-pills pull-right">
                       <li class="active">
                         <a href="#">View All</a>

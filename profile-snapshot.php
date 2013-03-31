@@ -1,6 +1,18 @@
+<div class="container">
+<div id="profile-header" class="row">
+    <span class="span2"><img class="profile-image" src="img/lisa.jpg"></span>
+    <span class="span4"><h1>Lisa Sy</h1></span>
+    <span class="span6">
+        <ul id="profile-action-buttons" class="pull-right">
+            <li><a class="btn pull-right btn-edit btn-green">Find a book</a></li>
+            <li><a class="btn btn-green">View public profile</a></li>
+        </ul>
+    </span>
+</div>
+
 <ul id="profile-snapshot" class="row">
     <li class="membership">
-        <p><i class="icon-globe icon-white"></i> Wesleyan University</p>
+        <p><i class="icon-map-marker icon-white"></i> Wesleyan University</p>
         <p><i class="icon-user icon-white"></i> Joined March 2013</p>
     </li>
     <li class="friends">

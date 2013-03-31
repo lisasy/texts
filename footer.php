@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="span3">
-                <img src="img/temp-logo-dark.png">
+                <img src="img/logo-dark.png">
                 <p>Texts.com allows you to sell and buy from your fellow classmates, since you all go to the same school, take the same classes and live on the same campus. <a href="#">Learn more about our initiative and why are are changing the game.</a></p>
             </div>
 
