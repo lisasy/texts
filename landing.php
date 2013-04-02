@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
   <body>     
-<div class="landing-nav navbar navbar-static-top">
+<div class="navbar navbar-static-top">
     <div class="navbar-inner">
         <div class="container">
             <div class="row">
@@ -9,7 +9,7 @@
                 </div>
                 <div class="span5 offset3">
                     <div class="pull-right">
-                    <ul class="nav">
+                    <ul class="nav landing-nav">
                       <li class="active"><a href="#">Home</a></li>
                       <li><a href="info-about.php">About</a></li>
                       <li><a href="features.php">Features</a></li>
@@ -36,14 +36,15 @@
                 <section class="span5 offset1">
                     <p class="lead">Texts.com allows students to buy and sell textbooks to one another on their campuses. Stop overpaying, sign up now.</p>
                     <a class="btn facebook">Sign up with Facebook</a>
-                    <p><small>or</small></p>
-                    <a href="#">Sign up with your email address</a>
+                    <p><small><a href="#" data-toggle="tooltip" title="first tooltip">hover over me</a></small></p>
+<!--                     <p><small>or</small></p>
+                    <a href="#">Sign up with your email address</a> -->
                 </section>
             </div>
         </div>
     <div class="row learn-more">
         <div class="span12">
-            <a href="#landing-features" class="btn learn-more-btn">Learn more</a>
+            <a href="#landing-features" class="btn btn-green btn-large learn-more-btn">Learn more</a>
         </div>
     </div>
     </div>

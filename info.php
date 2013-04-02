@@ -10,6 +10,7 @@
 	    <ul class="nav nav-list">
 	      <li class="nav-header">Texts.com</li>
 	      <li class="active"><a href="#">About Us</a></li>
+	      <li><a href="features.php">Features</a></li>
 	      <li><a href="#">FAQs</a></li>
 	      <li><a href="#">The Market</a></li>
 	      <li><a href="#">Contact</a></li>

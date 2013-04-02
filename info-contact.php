@@ -11,6 +11,7 @@
         <ul class="nav nav-list">
           <li class="nav-header">Texts.com</li>
           <li><a href="info-about.php">About Us</a></li>
+          <li><a href="features.php">Features</a></li>
           <li><a href="info-faqs.php">FAQs</a></li>
           <li><a href="info-market.php">The Market</a></li>
           <li class="active"><a href="info-contact.php">Contact</a></li>

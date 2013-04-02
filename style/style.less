@@ -1,4 +1,4 @@
-@green : #27be37;
+@green : #87c117;
 @tan: #e3df98;
 @white: #ffffff;
 
@@ -170,6 +170,10 @@ Global Bootstrap Edits
 .btn-danger{
 	background: #9d261d;
 	color: @white;
+}
+
+.btn-large{
+	padding: 16px 36px;
 }
 
 /*-- Nav Pills --*/
@@ -636,17 +640,32 @@ The Book Assets
 Landing Page
 ***********************************/
 .landing-nav{
-	text-shadow: none;
+	li.active a{
+		background: @charcoal;
+		color: @white;
+		font-weight: bold;
+	}
+	li a{
+		color: @white;
+		text-shadow: none;
+	}
 }
 
 #landing-masthead{
-	background: @tan *3/2;
+	background: #f1f9dd;
 	.padding-top-bottom-large;
+	h1{
+		font-size: 5.0em;
+		.padding-bottom-large;
+	}
 	.info{
 		.padding-top-bottom-medium;
 		a.facebook{
 			color: @white;
 			background: #3B5998;
+			&:hover{
+				background: #2d477e;
+			}
 		}
 	}
 	.learn-more{
@@ -697,7 +716,7 @@ nav#info{
 	background: @side;
 	margin-left: 0px;
 	ul.nav-list:first-child{
-		padding-top: 8px;
+		padding-top: 4px;
 	}
 	ul.nav-list{
 		.padding-top-bottom-medium;
