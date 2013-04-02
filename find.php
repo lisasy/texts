@@ -105,6 +105,7 @@
                             </div>
                             <div class="icon">
                             	<i class="icon-plus-sign"></i>
+                            	<p><small>Add</small></p>
                             </div>
                         </li>
                         <li class="book-asset-hor">
@@ -116,6 +117,7 @@
                             </div>
                             <div class="icon">
                             	<i class="icon-plus-sign"></i>
+                            	<p><small>Add</small></p>
                             </div>
                         </li>
 					</ul>
@@ -136,6 +138,7 @@
                             </div>
                             <div class="icon">
                             	<i class="icon-minus-sign"></i>
+                            	<small>Remove</small>
                             </div>
                         </li>
                         <li class="book-asset-hor">
@@ -147,6 +150,7 @@
                             </div>
                             <div class="icon">
                             	<i class="icon-minus-sign"></i>
+                            	<small>Remove</small>
                             </div>
                         </li>
 					</ul>

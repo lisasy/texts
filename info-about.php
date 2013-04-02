@@ -1,0 +1,37 @@
+<?php include 'header.php' ?>
+<body>     
+<?php include 'navbar.php' ?>
+
+
+<div class="body-content">
+
+<div class="container">
+  <div class="row">
+    <nav id="info" class="span3">
+        <ul class="nav nav-list">
+          <li class="nav-header">Texts.com</li>
+          <li class="active"><a href="info-about.php">About Us</a></li>
+          <li><a href="info-faqs.php">FAQs</a></li>
+          <li><a href="info-market.php">The Market</a></li>
+          <li><a href="info-contact.php">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="span8 offset1">
+    <h1>About Us</h1>
+    <p>Have any questions, concerns, or suggestions?</p>
+    <p>Email us at <u>admin@texts.com</u></p>
+    <ul>
+      <li><a href="">Follow us on Twitter</a></li>
+      <li><a href="">Like Texts.com on Facebook</a></li>
+    </ul>
+    </section>
+  </div>
+</div>
+
+</div>
+
+<?php include 'footer.php' ?>
+<?php include 'javascript.php' ?>
+
+</body>
+</html>
