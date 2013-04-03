@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <body>     
-<?php include 'navbar.php' ?>
+<?php include 'navbar-unlogged.php' ?>
 
 
 <div class="body-content">
@@ -11,69 +11,34 @@
 		    <ul class="nav nav-list">
 		      <li class="nav-header">Texts.com</li>
 		      <li><a href="info-about.php">About Us</a></li>
+		      <li><a href="info-features.php">Features</a></li>
 		      <li class="active"><a href="info-faqs.php">FAQs</a></li>
 		      <li><a href="info-market.php">The Market</a></li>
 		      <li><a href="info-contact.php">Contact</a></li>
 		    </ul>
 		</nav>
-		<section class="span9">
-	        <div class="accordion" id="accordion2">
+		<section class="span7 offset1">
+		<h1> Frequently Asked Questions</h1>
+		<dl>
+			<dt>What is Texts.com?</dt>
+			<dd>Divide bills easily by creating receipts and letting billshare do the math. Automatically keep a searchable history of all bills.</dd>
 
-	          <div class="accordion-group">
-	            <div class="accordion-heading">
-	              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-	                What is Texts.com?
-	              </a>
-	            </div>
-	            <div id="collapseOne" class="accordion-body collapse in">
-	              <div class="accordion-inner span6 offset1">
-	                <p>
-	                <strong>Texts.com</strong> was founded and created by recent college grads and college student Peter Frank (CEO, Wesleyan University '12'), Ben Halpern (CTO, '12'), and Lisa Sy (Lead Designer, Wesleyan University '13).
-	                </p>
-	              </div>
-	            </div>
-	          </div>
+			<dt>How do I use this website?</dt>
+			<dd>Keep track of new receipts are posted to your groups instantly by subscribing to the groups RSS feed.</dd>
 
-	          <div class="accordion-group">
-	            <div class="accordion-heading">
-	              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-	                How does this work?
-	              </a>
-	            </div>
-	            <div id="collapseTwo" class="accordion-body collapse">
-	              <div class="accordion-inner">
-	                Anim pariatur cliche...
-	              </div>
-	            </div>
-	          </div>
+			<dt>How is Texts.com better than buying and selling on Amazon or at the campus bookstore?</dt>
+			<dd>Keep track of new receipts are posted to your groups instantly by subscribing to the groups RSS feed.</dd>
 
-	          <div class="accordion-group">
-	            <div class="accordion-heading">
-	              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-	                How is Texts.com a game changer?
-	              </a>
-	            </div>
-	            <div id="collapseThree" class="accordion-body collapse">
-	              <div class="accordion-inner">
-	                Anim pariatur cliche...
-	              </div>
-	            </div>
-	          </div>
+		   <dt>Lorem ipsum dolor sit amet</dt>
+		   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+		commodo consequat.</dd>
 
-	          <div class="accordion-group">
-	            <div class="accordion-heading">
-	              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-	                How can I use Texts.com?
-	              </a>
-	            </div>
-	            <div id="collapseFour" class="accordion-body collapse">
-	              <div class="accordion-inner">
-	                Anim pariatur cliche...
-	              </div>
-	            </div>
-	          </div>
-
-	        </div>
+		   <dt>Lorem ipsum dolor sit amet</dt>
+		   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+		commodo consequat.</dd>
+		</dl>
 		</section>
 	</div>
 </div>

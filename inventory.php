@@ -28,10 +28,11 @@
         </nav>
         <section id="profile-content" class="span9">
             <header class="row">
-                <div class="span4">
+                <div class="span3">
                     <h2>My Inventory</h2>
                 </div>
-                <div class="span5">
+                <div class="span6">
+                    <a class="btn btn-green">Add books to sell</a>
                     <ul class="nav nav-pills pull-right">
                       <li class="active">
                         <a href="#">View All</a>

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="span2">
-                    <a class="brand" href="landing.php"><img src="img/logo-white.png"></a>
+                    <a class="brand" href="index.php"><img src="img/logo-white.png"></a>
                 </div>
                 <!-- search bar -->
                 <div class="span4">

@@ -75,6 +75,8 @@ body{
 
 .body-content{
 	.padding-top-bottom-medium;
+	color: @charcoal;
+	background: url('../img/icon-large-bg.png') no-repeat bottom right fixed;
 }
 
 h1,h2,h3,h4,h5,h6,p,small,em,a,strong,.large-number{
@@ -314,7 +316,7 @@ nav#profile-sidebar{
 				box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
 			}
 		}
-		li:first-child a{
+		li:nth-child(2) a{
 			border-top: none;
 		}
 		li:last-child a{
@@ -566,6 +568,11 @@ The Book Assets
 	border-radius: 3px;
 	padding: 5px;
 	border: 1px solid @button;
+	.book-thumb{
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
 	.book-description{
 		padding-top:10px;
 		min-height: 140px;
@@ -639,17 +646,32 @@ The Book Assets
 /**********************************
 Landing Page
 ***********************************/
+
+/*-- unlogged page --*/
 .navbar-inner{	
+	padding: 1px 0 6px 0;
 	.landing-nav{
+		padding-top: 5px;
 		li.active a{
+			box-shadow: none;
 			background: @charcoal;
 			color: @white;
 			font-weight: bold;
+			&:hover{
+				box-shadow: none;
+				background: @medium;
+				color: @white;
+			}
 		}
 		li a{
 			color: @white;
 			text-shadow: none;
 			margin-left: 15px;
+			&:hover{	
+				border-radius: 3px;
+				color: @white;
+				background: @medium;
+			}
 		}
 		li a.btn{
 			&:hover{
@@ -671,10 +693,18 @@ Landing Page
 		.padding-top-bottom-medium;
 		a.facebook{
 			color: @white;
+			padding: 20px 40px;
+			font-size: 1.3em;
 			background: #3B5998;
 			&:hover{
 				background: #2d477e;
 			}
+		}
+	}
+	.tool{
+		color: @lighttext;
+		&:hover{
+			color: @medium;
 		}
 	}
 	.learn-more{
@@ -684,8 +714,19 @@ Landing Page
 	}
 }
 
-    /* MARKETING CONTENT
+ /* MARKETING CONTENT
     -------------------------------------------------- */
+#marketing{
+	.padding-top-large;
+	img{
+		width: 140px;
+		height: auto;
+	}
+}
+
+.market-preview{
+	padding-bottom: 100px;
+}    
 
 /* Center align the text within the three columns below the carousel */
 .marketing .span4 {
@@ -704,8 +745,17 @@ Landing Page
 
 #landing-features{
 	padding-top: 40px;
+	.right{
+		display: block;
+		width: 100%;
+		.pull-right{
+			margin-top: -80px;
+			margin-bottom: 120px;
+			float: right;
+			width: 40%;
+		}
+	}
 }
-
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -733,19 +783,50 @@ Landing Page
   letter-spacing: -1px;
 }
 
+/*-- Mini Featurettes --*/
+section#feature-page{
+	.featurette{
+		padding-top: :;
+		overflow: hidden;
+		width: 100%;
+		display: block;
+	}
+	img.featurette-image{
+		margin-top: 60px;
+		width: 40%;
+	}
+	article.pull-right{
+		width: 50%;
+	}
+	h2{
+		font-size: 2.0em;
+	}
+	p{
+		font-size: 1.1em;
+		font-weight: normal;
+	}
+	.featurette-image.pull-left{
+		margin-right:10px;
+	}
+	.featurette-image.pull-right{
+		margin-left:10px;
+	}
+}
+
 /**********************************
 About, FAQs, The Market, Contact
 ***********************************/    
 nav#info{
 	background: @side;
-	margin-left: 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 	ul.nav-list:first-child{
 		padding-top: 4px;
 	}
 	ul.nav-list{
 		.padding-top-bottom-medium;
 		li.active a{
-			background: @tan;
+			background: @button;
 			box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
 			border-top:none;
 		}
@@ -756,18 +837,38 @@ nav#info{
 			border-top: 1px solid @white;
 			border-bottom: 1px solid @lighttext;
 			&:hover{
-				background: @button;
+				background: @lighttext;
 				box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
 			}
 		}
-		li:first-child a{
+		li:nth-child(2) a{
 			border-top: none;
 		}
 		li:last-child a{
 			border-bottom: none;
+			margin-bottom: 0;
 		}
 	}
 }
+
+/*-- FAQs definition lists --*/
+dl{
+	font-family: "proxima-nova", helvetica, sans-serif;
+	color: @charcoal;
+	dt:first-child{
+		margin-top: 40px;
+	}
+	dt{
+		margin-bottom: 10px;
+		font-size: 1.5em;
+		line-height: 1.4em;
+	}
+	dd{
+		margin: 10px 0 30px 0;
+		color: #777777;
+	}
+}
+
 
 /**********************************
 Footer

@@ -28,7 +28,10 @@
         </nav>
         <section id="profile-content" class="span9">
             <header class="row">
-                <div class="span9"><h2>My Wishlist</h2></div>
+                <div class="span3"><h2>My Wishlist</h2></div>
+                <div class="span6">
+                    <a class="btn btn-green pull-right">Add books to sell</a>
+                </div>
             </header>
             <article class="row">
                 <ul>

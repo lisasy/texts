@@ -9,7 +9,8 @@
             <div class="span3">
                 <ul>
                     <h4>Join the movement.</h4>
-                    <li><a href="">Find your books and courses</a></li>
+                    <li><a href="find.php">Find your books to sell</a></li>
+                    <li><a href="find.php">Find your books to buy</a></li>
                 </ul>
                 <ul>
                     <h4>Find us elsewhere</h4>
@@ -22,9 +23,9 @@
             <div class="span3">
                 <ul>
                     <h4>Company</h4>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">The Market</a></li>
+                    <li><a href="info-about.php">About Us</a></li>
+                    <li><a href="info-features.php">Features</a></li>
+                    <li><a href="info-market.php">The Market</a></li>
                     <li><a href="">Texts.com Blog</a></li>
                 </ul>
             </div>
@@ -32,9 +33,9 @@
                 <ul>
                     <h4>Support</h4>
                     <li><a href="">Log In/Sign Up/Sign Out</a></li>
-                    <li><a href="">FAQs</a></li>
-                    <li><a href="">Help</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="info-faqs.php">FAQs</a></li>
+                    <li><a href="help.php">Help</a></li>
+                    <li><a href="info-contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
