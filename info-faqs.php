@@ -7,22 +7,13 @@
 
 <div class="container">
 	<div class="row">
-		<nav id="info" class="span3">
-		    <ul class="nav nav-list">
-		      <li class="nav-header">Texts.com</li>
-		      <li><a href="info-about.php">About Us</a></li>
-		      <li><a href="info-features.php">Features</a></li>
-		      <li class="active"><a href="info-faqs.php">FAQs</a></li>
-		      <li><a href="info-market.php">The Market</a></li>
-		      <li><a href="info-contact.php">Contact</a></li>
-		    </ul>
-		</nav>
+		<?php include 'info-sidebar.php' ?>
 		<section id="" class="info-body span7 offset1">
 		<h1> Frequently Asked Questions</h1>
 		<dl>
 			<dt>What is Texts.com?</dt>
 			<dd>Divide bills easily by creating receipts and letting billshare do the math. Automatically keep a searchable history of all bills.</dd>
-
+	
 			<dt>How do I use this website?</dt>
 			<dd>Keep track of new receipts are posted to your groups instantly by subscribing to the groups RSS feed.</dd>
 

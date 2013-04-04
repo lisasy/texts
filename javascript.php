@@ -10,6 +10,6 @@
 		$('.xbook').popover();
 		$('.popover-element').popover();
 		$().button('loading');
-		 $('nav#info').stickyMojo({footerID: '#footer', contentID: '.info-body'});
+		$('nav#info,#transaction-sidebar').stickyMojo({footerID: '#footer', contentID: '.info-body,#transaction-body'});
 	});
 </script>

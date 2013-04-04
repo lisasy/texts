@@ -7,7 +7,7 @@
 
 <div class="container">
     <div class="row">
-        <section class="span8">
+        <section id="transaction-body" class="span8">
             <header class="row">
                 <div class="span1">    
                     <img src="img/lisa.jpg">
@@ -228,8 +228,6 @@
 
 <?php include 'footer.php' ?>
 <?php include 'javascript.php' ?>
-
-</body>
 
 </body>
 </html>

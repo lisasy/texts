@@ -3,7 +3,7 @@
 <hr class="featurette-divider">
   <div class="featurette">
     <img class="featurette-image pull-right" src="img/illu-building.png">
-    <h2 class="featurette-heading">Sell your books on campus. <span class="muted">Quick.</span></h2>
+    <h2 class="featurette-heading">Find your courses and books. <span class="muted">Quick.</span></h2>
     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
   </div>
 
@@ -12,7 +12,7 @@
   <div class="featurette right">
     <img class="featurette-image pull-left" src="img/illu-flag.png">
     <article class="pull-right">
-    <h2 class="featurette-heading">Buy books from your peers. <span class="muted">They're right on campus.</span></h2>
+    <h2 class="featurette-heading">Buy and sell with mutual Facebook friends. <span class="muted">You're selling to your classmates</span></h2>
     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     </article>
   </div>
