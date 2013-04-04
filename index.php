@@ -62,7 +62,7 @@
 <div class="container">
     <section class="market-preview row">
         <article class="span4">
-            <img src="http://placehold.it/600x350">
+            <img src="img/illu-map.png">
         </article> 
         <article class="span7 offset1">     
           <h2>It's all on campus.</h2>
