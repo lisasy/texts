@@ -30,7 +30,7 @@
             <header class="row">
                 <div class="span3"><h2>My Wishlist</h2></div>
                 <div class="span6">
-                    <a class="btn btn-green pull-right">Add books to sell</a>
+                    <a class="btn btn-green pull-right">Add books to buy</a>
                 </div>
             </header>
             <article class="row">

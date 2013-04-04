@@ -24,7 +24,7 @@
     <h2 class="featurette-heading">Stay green. <span class="muted">Keep books in the loop.</span></h2>
     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     <a class="btn facebook">Sign up with Facebook now</a>
-    <p><a href="">or login now.</a></p>
+    <p>or <a href="">login now.</a></p>
   </div>
 
   <hr class="featurette-divider">

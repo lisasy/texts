@@ -13,16 +13,22 @@
                     <img src="img/lisa.jpg">
                 </div>
                 <div class="span7">
-                    <h6>You want to buy from</h6>
+                    <h5>You want to buy from</h5>
                     <h1>Lisa Sy</h1>
                 </div>
             </header>
             <article id="message-input" class="row">
-                <div class="span6 offset1">
+                <div class="chat-user span1">
+                    <img src="img/lisa.jpg">
+                    <h5>You</h5>
+                </div>
+                <div class="span5">
+                    <div class="arrow-left"></div>
                     <textarea placeholder="Send a message"></textarea>
                 </div>
-                <div class="span3 offset5">
-                    <button type="submit" class="btn-tan btn center">Send message</button>
+                <div class="textarea-control span2 pull-right">
+                    <button type="submit" class="btn">Send message</button>
+                    <button type="submit" class="btn">Clear message</button>
                 </div>
             </article>
             <article id="message-chat"class="row">
@@ -218,7 +224,7 @@
                 </form>
             </article>
         </aside>
-        
+
     </div>
 </div>
 
