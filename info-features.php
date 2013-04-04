@@ -17,7 +17,7 @@
 	      <li><a href="info-contact.php">Contact</a></li>
 	    </ul>
 	</nav>
-	<section id="feature-page" class="span7">
+	<section id="feature-page" class="span8 offset1">
 	<h1>Features</h1>
   <?php include 'features.php' ?>
 		

@@ -20,10 +20,10 @@
   <hr class="featurette-divider">
 
   <div class="featurette">
-    <img class="featurette-image pull-right" src="http://placehold.it/600x350">
-    <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
+    <img class="featurette-image pull-right" src="img/recycled-book-notext.png">
+    <h2 class="featurette-heading">Stay green. <span class="muted">Keep books in the loop.</span></h2>
     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-    <a class="btn">Sign up now</a>
+    <a class="btn facebook">Sign up with Facebook now</a>
   </div>
 
   <hr class="featurette-divider">

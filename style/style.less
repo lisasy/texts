@@ -177,6 +177,17 @@ Global Bootstrap Edits
 	padding: 16px 36px;
 }
 
+/*-- Facebook --*/
+a.facebook{
+	color: @white;
+	padding: 20px 40px;
+	font-size: 1.3em;
+	background: #3B5998;
+	&:hover{
+		background: #2d477e;
+	}
+}
+
 /*-- Nav Pills --*/
 .nav-pills{
 	li a{
@@ -683,22 +694,13 @@ Landing Page
 
 #landing-masthead{
 	background: #f1f9dd;
-	.padding-top-bottom-large;
+	padding: 80px 0 120px 0;
 	h1{
 		font-size: 5.0em;
 		.padding-bottom-large;
 	}
 	.info{
 		.padding-top-bottom-medium;
-		a.facebook{
-			color: @white;
-			padding: 20px 40px;
-			font-size: 1.3em;
-			background: #3B5998;
-			&:hover{
-				background: #2d477e;
-			}
-		}
 	}
 	.tool{
 		color: @lighttext;
@@ -707,16 +709,17 @@ Landing Page
 		}
 	}
 	.learn-more{
-		padding-top: 120px;
+		padding-top: 95px;
 		text-align: center;
 		margin: 0 auto;
+		position: absolute;
 	}
 }
 
  /* MARKETING CONTENT
     -------------------------------------------------- */
 #marketing{
-	.padding-top-large;
+	padding-top: 160px;
 	img{
 		width: 140px;
 		height: auto;
@@ -784,8 +787,11 @@ Landing Page
 
 /*-- Mini Featurettes --*/
 section#feature-page{
+	.featurette-divider{
+		margin: 20px 0;
+	}
 	.featurette{
-		padding-top: :;
+		padding-top: 0;
 		overflow: hidden;
 		width: 100%;
 		display: block;
