@@ -9,6 +9,7 @@
 	$(document).ready(function() {
 		$('.xbook').popover();
 		$('.popover-element').popover();
-		$().button('loading')
+		$().button('loading');
+		 $('nav#info').stickyMojo({footerID: '#footer', contentID: '.info-body'});
 	});
 </script>

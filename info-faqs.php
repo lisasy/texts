@@ -17,7 +17,7 @@
 		      <li><a href="info-contact.php">Contact</a></li>
 		    </ul>
 		</nav>
-		<section class="span7 offset1">
+		<section id="" class="info-body span7 offset1">
 		<h1> Frequently Asked Questions</h1>
 		<dl>
 			<dt>What is Texts.com?</dt>
