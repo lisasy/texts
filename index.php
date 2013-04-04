@@ -29,8 +29,9 @@
     </div>
 </div>
 
-<div id="marketing" class="container marketing">
+<div class="container marketing">
 
+  <div id="marketing">
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
@@ -52,7 +53,7 @@
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
-
+  </div>
 
 <div id="landing-features">
   <?php include 'features.php' ?>
