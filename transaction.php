@@ -14,7 +14,7 @@
                 </div>
                 <div class="span7">
                     <h5>You want to buy from</h5>
-                    <h1>Lisa Sy</h1>
+                    <h1>Lisa Sy.</h1>
                 </div>
             </header>
             <article id="message-input" class="row">
@@ -27,8 +27,8 @@
                     <textarea placeholder="Send a message"></textarea>
                 </div>
                 <div class="textarea-control span2 pull-right">
-                    <button type="submit" class="btn">Send message</button>
-                    <button type="submit" class="btn">Clear message</button>
+                    <button type="submit" class="btn btn-green">Send message</button>
+                    <button type="submit" class="btn btn-green">Clear message</button>
                 </div>
             </article>
             <article id="message-chat"class="row">
@@ -36,63 +36,75 @@
                     <section class="message-box">
                         `<ul>
                         <li class="user-me row">
-                            <div class="chat-user span1">
-                                <img src="img/lisa.jpg">
+                            <div class="chat-user">
                                 <h5>You</h5>
                                 <small>9:47pm</small>
                             </div>
-                            <div class="span6">
+                            <div class="message-content">
                                 <p>Yeah, I think that is a good place for us to meet up.</p>
                             </div>
                         </li>
                         <li class="user-other row">
-                            <div class="span4">
-                                <p>Why don't we meet up in Usdan?</p>
-                            </div>
-                            <div class="chat-user span1">
-                                <img src="img/lisa.jpg">
-                                <h5>Ben</h5>
+                            <div class="chat-user">
+                                <h5>Lisa Sy</h5>
                                 <small>12:00pm</small>
+                            </div>
+                            <div class="message-content">
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                            </div>
+                        </li>
+                        <li class="user-other row">
+                            <div class="chat-user">
+                                <h5>Lisa Sy</h5>
+                                <small>12:00pm</small>
+                            </div>
+                            <div class="message-content">
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                             </div>
                         </li>
                         <li class="user-me row">
-                            <div class="chat-user span1">
-                                <img src="img/lisa.jpg">
+                            <div class="chat-user">
                                 <h5>You</h5>
                                 <small>9:47pm</small>
                             </div>
-                            <div class="span4">
+                            <div class="message-content">
                                 <p>Yeah, I think that is a good place for us to meet up.</p>
                             </div>
                         </li>
                         <li class="user-other row">
-                            <div class="span4">
-                                <p>Why don't we meet up in Usdan?</p>
-                            </div>
-                            <div class="chat-user span1">
-                                <img src="img/lisa.jpg">
-                                <h5>Ben</h5>
+                            <div class="chat-user">
+                                <h5>Lisa Sy</h5>
                                 <small>12:00pm</small>
+                            </div>
+                            <div class="message-content">
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                             </div>
                         </li>
                         <li class="user-me row">
-                            <div class="chat-user span1">
-                                <img src="img/lisa.jpg">
+                            <div class="chat-user">
                                 <h5>You</h5>
                                 <small>9:47pm</small>
                             </div>
-                            <div class="span4">
+                            <div class="message-content">
                                 <p>Yeah, I think that is a good place for us to meet up.</p>
                             </div>
                         </li>
                         <li class="user-other row">
-                            <div class="span4">
-                                <p>Why don't we meet up in Usdan?</p>
-                            </div>
-                            <div class="chat-user span1">
-                                <img src="img/lisa.jpg">
-                                <h5>Ben</h5>
+                            <div class="chat-user">
+                                <h5>Justin Timberlake</h5>
                                 <small>12:00pm</small>
+                            </div>
+                            <div class="message-content">
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                            </div>
+                        </li>
+                        <li class="user-me row">
+                            <div class="chat-user">
+                                <h5>You</h5>
+                                <small>9:47pm</small>
+                            </div>
+                            <div class="message-content">
+                                <p>Yeah, I think that is a good place for us to meet up.</p>
                             </div>
                         </li>
                         </ul>
@@ -103,7 +115,7 @@
 
         <aside id="transaction-sidebar" class="span4">
             <article class="book-list">
-                <h3>Selected Books</h3>
+                <h3>Selected Books (3)</h3>
                 <div class="box">
                     <ul>
                         <li class="book-asset">
