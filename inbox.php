@@ -14,8 +14,17 @@
         <?php include 'profile-sidebar.php' ?>
         <section id="profile-content" class="span9">
             <header class="row">
-                <div class="span4"><h2>Inbox (3)</h2></div>
-                <div class="span5"></div>
+                <div class="span3">
+                    <h2>Inbox (3)</h2>
+                </div>
+                <div class="span6">
+                    <ul class="nav nav-pills pull-right">
+                      <li class="active">
+                        <a href="#">View All (3)</a>
+                      </li>
+                      <li><a href="#">View Unread (1)</a></li>
+                    </ul>
+                </div>
             </header>
             <article class="row">
                 <ul class="inbox table span9">
@@ -34,7 +43,7 @@
                             </ul>
                         </div>
                         <div class="transaction-status">
-                            <h5 class="pending">Pending</h5>
+                            <h5 class="active">Active</h5>
                         </div>
                     </li>
                     <li class="message-row">
@@ -52,7 +61,7 @@
                             </ul>
                         </div>
                         <div class="transaction-status">
-                            <h5 class="pending">Pending</h5>
+                            <h5 class="active">Active</h5>
                         </div>
                     </li>
                     <li class="message-row">

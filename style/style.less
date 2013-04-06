@@ -195,10 +195,11 @@ a.facebook{
 .nav-pills{
 	li a{
 		border-radius: 3px;
-		border: 1px solid @side;
+		border: 2px solid @side;
 		color: @medium;
 	}
 	li.active a{
+		border: 2px solid transparent;
 		background: @medium;
 		&:hover{
 			background:@green;
@@ -409,7 +410,7 @@ ul.inbox{
 			float: left;
 			width: 82px;
 			//background: @side;
-			.pending{color:@green;}
+			.active{color:@green;}
 			.completed{color: @lighttext;}	
 		}
 	}
