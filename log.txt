@@ -1,6 +1,6 @@
 
 Saturday, 4/6/13
-3:40px:
+3:00pm
 
 - added the CLOSE button to the 'inventory.php' for the first two book assets; for time's sake and because it is dynamic, you can take this and add it to all (including in 'wishlist.php')
 
