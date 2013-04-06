@@ -1,0 +1,1 @@
+- If user is logged in for the first time and activity shows nothing, have an activity that says "You signed up for Texts.com." and then include links to buy, sell, and invite friends on Facebook

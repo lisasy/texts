@@ -1,0 +1,30 @@
+
+Saturday, 4/6/13
+3:40px:
+
+- added the CLOSE button to the 'inventory.php' for the first two book assets; for time's sake and because it is dynamic, you can take this and add it to all (including in 'wishlist.php')
+
+- a change you can make that Peter and I were talking about: in the navigation sidebar for profile page, it might be better to change wording from "My Inventory" to "Books I Have", and "My Wishlist" to "Books I Want"
+
+- added a new file that shows the inbox of TRANSACTIONS happening (different from ACTIVITY page); the new file is called 'inbox.php'
+
+- added new file: 'campus-marketplace.php'
+
+- added new file: 'profile-sidebar.php' for the sidebar in profile page.
+
+- added new page INBOX to 'profile-sidebar.php'
+
+- 'market-widget.php'
+
+- deleted 'landing.php' because I already have 'index.php'
+
+- added a div class called "empty-box" which appears on Activity/Books I Have/Books I Want when there is no content.
+
+
+
+----
+
+Friday, 4/5/13
+3:20pm:
+
+- edited transaction.php (finished transaction page)

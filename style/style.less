@@ -5,7 +5,7 @@
 @charcoal: #444444;
 @medium: #666666;
 @lighttext: #aaa7a7;
-@button: #d4d2d2;
+@button: #ccc;
 @side: #edecec;
 @body: #f7f7f7;
 
@@ -177,6 +177,9 @@ Global Bootstrap Edits
 	padding: 16px 36px;
 }
 
+.btn-small{
+	padding: 5px 20px;
+}
 /*-- Facebook --*/
 a.facebook{
 	color: @white;
@@ -312,9 +315,10 @@ nav#profile-sidebar{
 	ul.nav-list{
 		.padding-top-bottom-medium;
 		li.active a{
-			background: @tan;
+			background: @button;
 			box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
 			border-top:none;
+			text-shadow: none;
 		}
 		li a{
 			color: @charcoal;
@@ -323,7 +327,7 @@ nav#profile-sidebar{
 			border-top: 1px solid @white;
 			border-bottom: 1px solid @lighttext;
 			&:hover{
-				background: @button;
+				background: @lighttext;
 				box-shadow:inset 0 0 10px rgba(0,0,0,0.1);
 			}
 		}
@@ -332,6 +336,7 @@ nav#profile-sidebar{
 		}
 		li:last-child a{
 			border-bottom: none;
+			margin-bottom: 0;
 		}
 	}
 }
@@ -347,8 +352,23 @@ nav#profile-sidebar{
 	}
 	article{
 		.padding-top-bottom-medium;
-		table.activity{
+		table.activity,table.inbox{
 			background: @white;
+			border-left: 1px solid @side;
+			border-right: 1px solid @side;
+		}
+	}
+}
+
+/**********************************
+Settings
+***********************************/
+form#settings{
+	fieldset{
+		color: @charcoal;
+		margin-bottom: 40px;
+		input[type='text']{
+			margin-top: 9px;
 		}
 	}
 }
@@ -738,7 +758,8 @@ Landing Page
 
 /*-- unlogged page --*/
 .navbar-inner{	
-	padding: 1px 0 6px 0;
+	padding: 1px 0 3px 0;
+	height: 55px;
 	.landing-nav{
 		padding-top: 5px;
 		li.active a{
@@ -918,6 +939,7 @@ nav#info{
 		}
 		li a{
 			color: @charcoal;
+			text-shadow: none;
 			font-weight: bold;
 			padding: 8px 20px;
 			border-top: 1px solid @white;
@@ -967,6 +989,26 @@ nav#info{
 .info-body{
 	margin-left: auto;
 	padding-left: 40px;
+}
+
+/*-- BOX FOR IF CONTENT IS EMPTY --*/
+.empty-box{
+	border: 8px dotted @side;
+	border-radius: 30px;
+	padding: 30px;
+	margin: 40px;
+}
+
+/**********************************
+Campus Marketplace
+***********************************/   
+#campus-marketplace{
+	header{
+		h1{
+			font-size: 4.5em;
+		}
+		text-align:center;
+	}
 }
 
 /**********************************

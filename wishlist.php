@@ -11,21 +11,7 @@
 
 <div id="the-body" class="container">
     <div id="profile-body" class="row">
-        <nav id="profile-sidebar" class="span3">
-            <ul class="nav nav-list">
-              <li class="nav-header">My Profile</li>
-              <li><a href="library.php">Activity</a></li>
-              <li><a href="inventory.php">My Inventory</a></li>
-              <li class="active"><a href="wishlist.php">My Wishlist</a></li>
-            </ul>
-            <ul class="nav nav-list">
-              <li class="nav-header">Other</li>
-              <li><a href="settings.php">Settings</a></li>
-              <li><a href="help.php">Help</a></li>
-              <li><a href="#">Sign Out</a></li>
-            </ul>
-            
-        </nav>
+        <?php include 'profile-sidebar.php' ?>
         <section id="profile-content" class="span9">
             <header class="row">
                 <div class="span3"><h2>My Wishlist</h2></div>
@@ -37,6 +23,7 @@
                 <ul>
                     <div class="span2">
                         <li class="book-asset">
+                            <a class="close" href="#">&times;</a>
                             <div class="book-thumb"><img src="img/mc-example.jpg"></div>
                             <div class="book-description">
                                 <h5>Modern China: A Very Short Introduction</h5>
