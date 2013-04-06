@@ -14,20 +14,64 @@
         <?php include 'profile-sidebar.php' ?>
         <section id="profile-content" class="span9">
             <header class="row">
-                <div class="span4"><h2>Inbox (5)</h2></div>
+                <div class="span4"><h2>Inbox (3)</h2></div>
                 <div class="span5"></div>
             </header>
             <article class="row">
-                <table class="inbox table span9">
-                    <tr class="message-to">
-                        <td><a href="">Peter Frank</a> wants to buy <a href="">Modern China</a> from you.</td> <td><button class="btn btn-small">View Transaction</button></td>
-                        <td><p class="muted pull-right"><small>2:44pm</small></p></td>
-                    </tr>
-                    <tr class="message-from">
-                        <td><a href="">Ben Halpern</a> listed <a href="">European History and the Modern World</a>.</td> <td><button class="btn btn-small">View Transaction</button></td>
-                        <td><p class="muted pull-right"><small>Yesterday, 1:44pm</small></p></td>
-                    </tr>
-                </table>
+                <ul class="inbox table span9">
+                    <li class="message-row">
+                        <img src="img/ben.png">
+                        <div class="chat-preview">
+                            <h5>Ben Halpern</h5>    
+                            <a href=""><strong>Yeah, I am totally interested in buying that book...</strong></a>
+                            <p><small>April 5</small></p>
+                        </div>
+                        <div class="books-in-queue">
+                            <ul>
+                                <li>Wild</li>
+                                <li>Modern China</li>
+                                <li>The Perks of Being a Wallflower</li>
+                            </ul>
+                        </div>
+                        <div class="transaction-status">
+                            <h5 class="pending">Pending</h5>
+                        </div>
+                    </li>
+                    <li class="message-row">
+                        <img src="img/ben.png">
+                        <div class="chat-preview">
+                            <h5>Ben Halpern</h5>    
+                            <a href="">Yeah, I am totally interested in buying that book...</a>
+                            <p><small>April 5</small></p>
+                        </div>
+                        <div class="books-in-queue">
+                            <ul>
+                                <li>Wild</li>
+                                <li>Modern China</li>
+                                <li>The Perks of Being a Wallflower</li>
+                            </ul>
+                        </div>
+                        <div class="transaction-status">
+                            <h5 class="pending">Pending</h5>
+                        </div>
+                    </li>
+                    <li class="message-row">
+                        <img src="img/ben.png">
+                        <div class="chat-preview">
+                            <h5>Ben Halpern</h5>    
+                            <a href="">Thanks for the transaction!</a>
+                            <p><small>April 5</small></p>
+                        </div>
+                        <div class="books-in-queue">
+                            <ul>
+                                <li>The Perks of Being a Wallflower</li>
+                            </ul>
+                        </div>
+                        <div class="transaction-status">
+                            <h5 class="completed">Completed</h5>
+                        </div>
+                    </li>
+                </ul>
             </article>
         </section>
     </div>

@@ -352,11 +352,69 @@ nav#profile-sidebar{
 	}
 	article{
 		.padding-top-bottom-medium;
-		table.activity,table.inbox{
+		table.activity, ul.inbox{
 			background: @white;
 			border-left: 1px solid @side;
 			border-right: 1px solid @side;
 		}
+	}
+}
+
+/**********************************
+Inbox
+***********************************/
+ul.inbox{
+	li.message-row{
+		max-height:64px;
+		display: inline-block;
+		padding: 10px 10px 12px 10px;
+		border-bottom: 1px solid @side;
+		img{
+			width: 64px;
+			height: auto;
+			border: 4px solid @side;
+			float: left;
+		}
+		.chat-preview{
+			max-height: 68px;
+			h5{
+				margin-bottom: 0;
+			}
+			small{
+				color: @medium;
+			}
+			float: left;
+			//background:@tan;
+			width: 500px;
+			margin: 0 8px;
+			padding: 0 5px;
+		}
+		.books-in-queue{
+			//background: @side;
+			float: left;
+			width: 160px;
+			margin-right: 8px;
+			ul{
+				li{
+					font-style: italic;
+					display: block;
+					padding: 2px 0;
+					font-size: 0.9em;
+					font-family: "proxima-nova", Helvetica, sans-serif;
+					line-height: 1.0em;
+				}
+			}
+		}
+		.transaction-status{
+			float: left;
+			width: 82px;
+			//background: @side;
+			.pending{color:@green;}
+			.completed{color: @lighttext;}	
+		}
+	}
+	li.message-row:last-child{
+		border-bottom: none
 	}
 }
 
