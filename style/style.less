@@ -183,7 +183,7 @@ Global Bootstrap Edits
 /*-- Facebook --*/
 a.facebook{
 	color: @white;
-	padding: 20px 40px;
+	//padding: 20px 40px;
 	font-size: 1.3em;
 	background: #3B5998;
 	&:hover{
@@ -266,19 +266,19 @@ ul#profile-snapshot{
 	margin-top: -50px;
 	padding-left: 230px;
 	//display: inline-block;
-	//background: @charcoal;
-	background: url('../img/dark-pattern.png') repeat;
+	background: @charcoal;
+	//background: url('../img/dark-pattern.png') repeat;
 	li{
 		border-left:1px solid rgba(255,255,255,0.1);
 		border-right: 1px solid #000;
 		display: inline-block;
 		list-style: none;
-		color: @lighttext;
+		color: @white;
 		font-weight: 200;
 		padding: 16px 24px;
 		margin-left: -4px;
 		text-align: center;
-		text-shadow: 0 -1px 1px #000;
+		//text-shadow: 0 -1px 1px #000;
 		.large-number{
 			color: @tan;
 			text-shadow: 0 -1px 1px #000;
@@ -1063,13 +1063,33 @@ Campus Marketplace
 ***********************************/   
 #campus-marketplace{
 	header{
+		text-align:center;
+		border-bottom: 6px solid @green;
 		h1{
 			font-size: 4.5em;
 		}
-		text-align:center;
+		.progress{
+			display: block;
+			margin: 80px auto 20px auto;
+			width: 70%;
+		}
+		h2{
+			//text-transform: uppercase;
+			//letter-spacing: 2px;
+		}
+		h2, h4{
+			color: @medium;
+		}
+		a{
+			margin: 30px auto;
+			font-size: 2.0em;
+			padding: 32px;
+		}
 	}
 }
 
+.progress-success{
+}
 /**********************************
 404 Error page
 ***********************************/ 

@@ -11,8 +11,9 @@
 		<div class="progress progress-success progress-striped">
 	  		<div class="bar" style="width: 40%"></div>
 		</div>
-	  	<h2>33 out of 2800 students are on Texts.com</h2>
-	  	<a href="">Invite your friends now!</a>
+	  	<h2>40% of Wesleyan University are on Texts.com</h2>
+	  	<h4>More students mean better prices.</h4>
+	  	<a href="" class="btn btn-green">Invite your friends now!</a>
   	</header>
 </div>
 
@@ -22,7 +23,7 @@
 
 <div id="campus-analytics" class="container">
 	<div class="row">
-		<div class="span12">Your campus has saved #, sold #, bought #</div>
+
 	</div>
 </div>
 
