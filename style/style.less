@@ -822,9 +822,12 @@ Landing Page
 .navbar-inner{	
 	padding: 1px 0 3px 0;
 	height: 55px;
+	border-bottom: none;
+	background: @charcoal;
 	.landing-nav{
 		padding-top: 5px;
 		li.active a{
+			border-radius: 3px;
 			box-shadow: none;
 			background: @charcoal;
 			color: @white;
@@ -854,10 +857,36 @@ Landing Page
 	}
 }
 
+.navbar-black{
+	background: black;
+	.landing-nav{
+		padding-top: 5px;
+		li.active a{
+			border-radius: 3px;
+			box-shadow: none;
+			background: @charcoal;
+			color: @white;
+			font-weight: bold;
+			&:hover{
+				box-shadow: none;
+				background: @charcoal;
+				color: @white;
+			}
+		}
+	}
+}
+
 #landing-masthead{
-	background: #f1f9dd;
+	//background: #f1f9dd;
+	background: url('../img/header2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	padding: 80px 0 120px 0;
+	color: @white;
 	h1{
+		color:@white;
 		font-size: 5.0em;
 		.padding-bottom-large;
 	}
@@ -872,12 +901,24 @@ Landing Page
 	}
 	.facebook{
 		padding: 24px 36px;
+		// border: 10px solid rgba(255,255,255,0.3);
 	}
 	.learn-more{
+		display: block;
 		padding-top: 95px;
 		text-align: center;
 		margin: 0 auto;
 		position: absolute;
+		.learn-more-btn{
+			border: 5px solid @white;
+		}
+	}
+}
+
+/*-- video --*/
+.video{
+	iframe{
+		border: 10px solid rgba(255,255,255,0.3);
 	}
 }
 
