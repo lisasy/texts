@@ -52,12 +52,17 @@
         </div><!-- /.span4 -->
       </div><!-- /.row -->
   </div>
-
-<div id="landing-features">
-  <?php include 'features.php' ?>
 </div>
 
-<?php include 'market-widget.php' ?>
+<div id="landing-features">
+  <div class="container">
+    <?php include 'features.php' ?>
+  </div>
+</div>
+
+<div class="container">
+  <?php include 'market-widget.php' ?>
+</div>
 
 </div>
 </div>

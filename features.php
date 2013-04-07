@@ -1,7 +1,7 @@
 
   <!-- START THE FEATURETTES -->
-<hr class="featurette-divider">
-  <div class="featurette">
+<!-- /<hr class="featurette-divider">
+ -->  <div class="featurette">
     <img class="featurette-image pull-right" src="img/illu-building.png">
     <h2 class="featurette-heading">Find your courses and books. <span class="muted">Quick.</span></h2>
     <p class="lead">Find the books you need by using our incredible search engine. We give you information on what books you need when you enter your courses. It's quick and easy.</p>
@@ -45,6 +45,6 @@
     <p>or <a href="">login now.</a></p>
   </div>
 
-  <hr class="featurette-divider">
-
+<!--   <hr class="featurette-divider">
+ -->
   <!-- /END THE FEATURETTES -->  
