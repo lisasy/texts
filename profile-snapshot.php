@@ -18,10 +18,16 @@
     <li class="friends">
         <span class="large-number">33</span><p>of 745 friends on Texts.com</p>
     </li>
-    <li class="books-bought">
+    <li class="profile-progress">
+        <div class="progress progress-success progress-striped">
+          <div class="bar" style="width: 40%"></div>
+        </div>
+        <p>40% of your friends are on Texts.com</p><a href="">Invite more</a>
+    </li>
+<!--     <li class="books-bought">
         <span class="large-number">10</span><p>books bought</p>
     </li>
     <li class="books-sold">
         <span class="large-number">6</span><p>books sold</p>
-    </li>
+    </li> -->
 </ul>

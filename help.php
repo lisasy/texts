@@ -11,21 +11,7 @@
 
 <div class="container">
     <div id="profile-body" class="row">
-        <nav id="profile-sidebar" class="span3">
-            <ul class="nav nav-list">
-              <li class="nav-header">My Profile</li>
-              <li><a href="#">Activity</a></li>
-              <li><a href="inventory.php">My Inventory</a></li>
-              <li><a href="wishlist.php">My Wishlist</a></li>
-            </ul>
-            <ul class="nav nav-list">
-              <li class="nav-header">Other</li>
-              <li class="active"><a href="settings.php">Settings</a></li>
-              <li><a href="help.php">Help</a></li>
-              <li><a href="#">Sign Out</a></li>
-            </ul>
-            
-        </nav>
+        <?php include 'profile-sidebar.php' ?>
         <section id="profile-content" class="span9">
             <header class="row">
                 <div class="span9"><h2>Help</h2></div>
