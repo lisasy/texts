@@ -17,16 +17,25 @@
                 <!-- notifications/prof -->
                 <div class="admin-prof span5">
                     <div class="pull-right">
-                        <button class="btn btn-small"><i class="icon-inbox icon-white"></i></button>
-                        <!-- dropdown -->
+
+                        <div id="notification" class="btn-group">
+                          <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <icon class="icon-inbox icon-white"></icon>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="">Peter Frank sent you a message. <small>3:07pm</small></a></li>
+                            <li><a href="">Ben Halpern wants to buy your book. <small>12:07pm</small></a></li>
+                          </ul>
+                        </div>
+
+                        
                         <div class="btn-group ">
                           <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                             <span id="profile-thumb">
                                 <img src="img/lisa.jpg">
                             </span>
                             Lisa Sy
-<!--                             <span class="caret icon-white"></span>
- -->                          </a>
+                          </a>
                           <ul class="dropdown-menu">
                             <!-- dropdown menu links -->
                             <li><a href="library.php">My Profile</a></li>

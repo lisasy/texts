@@ -17,13 +17,39 @@
   	</header>
 </div>
 
-<div class="container">
-<section><h1>More students = less middleman = better prices</h1></section>	
+<div id="campus-banner" class="container">
+	<section class="">
+		<h1>More students</h1>
+		<h1>mean no middleman</h1>
+		<h1>means better prices.</h1>
+	</section>	
 </div>
 
-<div id="campus-analytics" class="container">
-	<div class="row">
-		
+<div id="campus-analytics">
+	<div class="container">
+		<div class="row">
+			<h4 class="text-center">At your campus...</h4>
+			<section class="campus-highlight">
+				<ul>
+					<li>
+						<div class="description">
+							<h1>Books listed for sale:</h1>
+						</div>
+						<div class="value">
+							<h1>400</h1>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h1>Books that students want:</h1>
+						</div>
+						<div class="value">
+							<h1>55</h1>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
 	</div>
 </div>
 

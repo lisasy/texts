@@ -241,6 +241,29 @@ Admin Bar
 	}
 }
 
+
+/*-- notification --*/
+#notification{
+	ul.dropdown-menu{
+		li{
+			border-bottom: 1px solid @side;
+			a{
+				padding: 10px 5px;
+				small{
+					color: @medium;
+				}
+				&:hover{
+					background: @side;
+					color: @charcoal;
+				}
+			}
+		}
+		li:last-child{
+			border-bottom: none;
+		}
+	}
+}
+
 /**********************************
 Profile Page 
 ***********************************/
@@ -1168,6 +1191,63 @@ Campus Marketplace
 			margin: 30px auto;
 			font-size: 2.0em;
 			padding: 32px;
+		}
+	}
+}
+
+#campus-banner{
+	padding: 80px 0;
+	background: url('../img/illu-flag.png') no-repeat left center;
+	section{
+		text-align: right;
+	}
+}
+
+#campus-analytics{
+	background: rgba(0,0,0,0.01);
+	padding: 60px 0;
+	box-shadow:inset 0px 0px 30px 0px rgba(0,0,0,.3);	
+	h4{
+		text-transform: uppercase;
+		color: @lighttext;
+		letter-spacing: 2px;
+		padding-bottom: 40px;
+		text-shadow: 0 1px 1px @white;
+	}
+	.campus-highlight{
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+		ul{
+			li{
+				background: @white;
+				padding: 0 20px;
+				border: 1px solid @side;
+				border-radius: 6px;
+				display: inline-block;
+				width: 100%;
+				.description, .value{
+					padding: 20px 0;
+					h1{
+						font-size: 3.0em;
+					}
+				}
+				.description{
+					border: 1px solid @side;
+					float: left;
+					width:60%;
+					text-align: right;
+					padding-right: 21px;
+				}
+				.value{
+					margin-left: 0;
+					padding-left: 21px;
+					border: 1px solid @side;
+					float: right;
+					width:35%;
+					vertical-align: bottom;
+				}
+			}
 		}
 	}
 }

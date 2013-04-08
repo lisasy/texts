@@ -1,3 +1,13 @@
+Monday, 4/8/13
+3:15pm
+
+- added NOTIFICATION to navbar (in navbar.php)
+- the CSS ID for notification is #notification
+
+- I'm still trying to figure out the Twitter Bootstrap CSS re-styling of the dropdown buttons on top when I click on the buttons; the background becomes light gray and the font remains white, which makes it hard to read.
+
+
+----
 
 Sunday, 4/7/13
 9:30pm
