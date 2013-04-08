@@ -25,6 +25,7 @@
                     <h4>Company</h4>
                     <li><a href="info-about.php">About Us</a></li>
                     <li><a href="info-features.php">Features</a></li>
+                    <li><a href="campus-marketplace.php">The Campus Marketplace</a></li>
                     <li><a href="info-market.php">The Market</a></li>
                     <li><a href="">Texts.com Blog</a></li>
                 </ul>
