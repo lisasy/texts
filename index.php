@@ -15,7 +15,7 @@
                 <section class="span5 offset1">
                     <p class="lead"><strong>Texts.com</strong> allows students to buy and sell textbooks to one another on their campuses. Stop overpaying, sign up now.</p>
                     <!-- <a class="btn btn-green btn-large">Watch how it works</a> -->
-                    <div class="btn-outerborder"><a class="btn facebook">Sign up with Facebook</a></div>
+                    <a href="school-confirmation.php" class="btn facebook">Sign up with Facebook</a>
                     <p class="tool"><a href="#" data-toggle="tooltip" title="first tooltip">Why only Facebook?</a></p>
 <!--                     <p><small>or</small></p>
                     <a href="#">Sign up with your email address</a> -->
