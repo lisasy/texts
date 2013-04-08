@@ -1,4 +1,7 @@
 
+Sunday, 4/7/13
+9:30pm
+
 - added 'signout.php'
 
 - added landing page image.... let me know what you think
@@ -6,6 +9,8 @@
 - the landing page's top navigation bar is black (the only page where it will be black in order to work visually well with the image)... its in the file called "navbar-unlogged-black.php". the CSS class name is "black" so it's pretty simple. Just wanted to note this.
 
 - added 'school-confirmation.php'
+
+- finished landing page with the illustrations.
 
 ----
 
