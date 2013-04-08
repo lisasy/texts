@@ -3,7 +3,7 @@
 @white: #ffffff;
 
 @charcoal: #444444;
-@medium: #666666;
+@medium: #777777;
 @lighttext: #aaa7a7;
 @button: #ccc;
 @side: #edecec;
@@ -893,7 +893,9 @@ Landing Page
 	.info{
 		.padding-top-bottom-medium;
 	}
-	.tool{
+	.tool a{
+		line-height: 2em;
+		text-align: center;
 		color: @lighttext;
 		&:hover{
 			color: @medium;
@@ -901,7 +903,7 @@ Landing Page
 	}
 	.facebook{
 		padding: 24px 36px;
-		// border: 10px solid rgba(255,255,255,0.3);
+		//width: 100%;
 	}
 	.learn-more{
 		display: block;
@@ -910,7 +912,7 @@ Landing Page
 		margin: 0 auto;
 		position: absolute;
 		.learn-more-btn{
-			border: 5px solid @white;
+			//border: 5px solid @white;
 		}
 	}
 }
@@ -1004,7 +1006,7 @@ Landing Page
 /* Thin out the marketing headings */
 .featurette-heading {
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 800;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -1040,6 +1042,23 @@ section#feature-page{
 	.featurette-image.pull-right{
 		margin-left:10px;
 	}
+}
+
+/*-- Confirmation Page --*/
+.confirmation{
+	.padding-bottom-medium;
+}
+
+.positive-confirmation{
+	padding: 80px 0;
+	h1{
+		margin-bottom: 20px;
+	}
+}
+
+select + a.btn{
+	margin-top: -8px;
+	padding: 6px 12px;
 }
 
 /**********************************

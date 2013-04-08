@@ -24,7 +24,7 @@
                     </div>
 
                     <tr class="sell-to">
-                        <td><i class="icon-globe"></i> <a href="">Peter Frank</a> wants to buy <a href="">Modern China</a> from you.</td> <td><button class="btn btn-small">View Transaction</button></td>
+                        <td><a href="">Peter Frank</a> wants to buy <a href="">Modern China</a> from you.</td> <td><button class="btn btn-small">View Transaction</button></td>
                         <td><p class="muted pull-right"><small>2:44pm</small></p></td>
                     </tr>
                     <tr class="buy-from">
@@ -47,6 +47,7 @@
 
 </div>
 
+<?php include 'footer.php' ?>
 <?php include 'javascript.php' ?>
 
 </body>

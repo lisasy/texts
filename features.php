@@ -12,17 +12,17 @@
   <div class="featurette right">
     <img class="featurette-image pull-left" src="img/illu-flag.png">
 <!--     <article class="pull-right">
- -->    <h2 class="featurette-heading">Buy and sell with mutual Facebook friends. <span class="muted">You're selling to your classmates</span></h2>
-    <p class="lead">Our native messaging system lets you connect with Facebook friends and mutual friends to sell to students at your school. You're not selling and buying to strangers; you're selling to fellow classmates.</p>
+ -->    <h2 class="featurette-heading">Connect with your classmates.</h2>
+    <p class="lead">Our native messaging system lets you connect with Facebook friends and mutual friends at your school. You're not selling and buying to strangers; you're selling to your friends and fellow classmates.</p>
 <!--     </article>
  -->  </div>
 
   <hr class="featurette-divider">
 
   <div class="featurette">
-    <img class="featurette-image pull-right" src="img/recycled-book-notext.png">
+    <img class="featurette-image pull-right" src="img/illu-pricecomparison.png">
     <h2 class="featurette-heading">Our price comparison tool. <span class="muted"></span></h2>
-    <p class="lead">Can' find the books you need on campus? Our price comparison tool shows you where you can find the cheapest books online so that you get a bang for your buck. Texts.com is always providing a service to students.</p>
+    <p class="lead">Can't find the books you need on campus? Our price comparison tool shows you where you can find the cheapest books online so that you get a bang for your buck. Texts.com is always providing a service to students.</p>
   </div>
 
   <hr class="featurette-divider">
@@ -31,7 +31,7 @@
     <img class="featurette-image pull-left" src="img/fb-icon.svg">
 <!--     <article class="pull-right">
  -->    <h2 class="featurette-heading">Stay in the network. <span class="muted">You're selling to your classmates</span></h2>
-    <p class="lead">When you sign up, you're signing to sell with fellow peers at your school. This creates a reliable and trustworthy network. Do away with the middleman; Sell to your peer.</p>
+    <p class="lead">When you sign up, you're signing to sell with fellow peers at your school. This creates a reliable and trustworthy network. Do away with the middleman; Sell to your peers.</p>
 <!--     </article>
  -->  </div>
 
