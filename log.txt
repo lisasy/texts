@@ -1,3 +1,29 @@
+
+Tuesday, 4/9/13
+3:15am:
+
+- campus marketplace is done for now.
+
+Because this was a last major view, I think that we really are ready to focus the website on only the Ruby on Rails part; what I mean by this is we can stop working using the workflow we've been working at (with me prototyping in html/css/php and you translating that into rails). Rather, I can have you move everything that you possibly can intos Rails, and I can start working with the styling. Hopefully, we can get it to work perfectly this time.
+
+The only minor views I will need to work on are:
+
+- The Market page
+- The Contact page
+- Fixing the profile snapshot bar at the top in the profile page
+- Fixing the "Close" button for the book assets in the wishlist/inventory
+- on click "Close" create an alert to ask if user really wants to delet that book
+- fix "Search" button in Search by Books
+- change styling of "Find" page in general
+- change top navigation bar active background color
+- in mightysea heroku, the CSS is off!!! the container for the page is not working. let's fix that.
+- tooltip "Why only Facebook?"
+- If user is logged in for the first time and activity shows nothing, have an activity that says "You signed up for Texts.com." and then include links to buy, sell, and invite friends on Facebook
+- vertical-align navbar on top better
+- "Textbooks made easy" jumps down on load of the page
+
+---
+
 Monday, 4/8/13
 3:15pm
 
