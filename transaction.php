@@ -146,9 +146,9 @@
                         </li>
                     </ul>
                 </div>
-                <a class="xbook btn btn-medium add-more-books" data-toggle="modal" href="#myModal">Add more books!</a>
+                <a class="xbook btn btn-medium add-more-books" data-toggle="modal" href="#addMoreBooks">Add more books!</a>
                 <!-- actual modal -->
-                <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div id="addMoreBooks" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                     <h3 id="myModalLabel">(Seller) is also selling the following:</h3>

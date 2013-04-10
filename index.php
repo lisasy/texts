@@ -9,14 +9,16 @@
         <div class="row">
             <h1 class="text-center">Textbooks made easy.</h1>
             <div class="info">
-                <section class="video span5">
+                <section class="span5"> 
+                  <div class="video">
                     <iframe src="http://player.vimeo.com/video/62941191?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=b8b8b8" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/62941191">3 words for NYC</a> from <a href="http://vimeo.com/cokau">Cokau</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+                  </div>
                 </section>
                 <section class="span5 offset1">
                     <p class="lead"><strong>Texts.com</strong> allows students to buy and sell textbooks to one another on their campuses. Stop overpaying, sign up now.</p>
                     <!-- <a class="btn btn-green btn-large">Watch how it works</a> -->
                     <a href="school-confirmation.php" class="btn facebook">Sign up with Facebook</a>
-                    <p class="tool"> <a href="#" id="why-facebook">Why Facebook only?</a></p>
+                    <p class="tool"> <a id="why-facebook" href="#">Why Facebook only?</a></p>
 <!--                     <p><small>or</small></p>
                     <a href="#">Sign up with your email address</a> -->
                 </section>

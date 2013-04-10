@@ -1,4 +1,17 @@
 
+Wednesday, 4/10/13
+
+12am:
+
+- finished contact.php
+- finished market.php
+- fixed navbar a bit
+- added jquery to "learn more" on landing page
+- added FitVids.js for responsive video player on landing page
+- fixed modal in transaction page (width)
+
+---
+
 Tuesday, 4/9/13
 3:15am:
 
