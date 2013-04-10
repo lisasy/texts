@@ -1023,7 +1023,7 @@ Landing Page
 
 #landing-features{
 	background: rgba(0,0,0,0.01);
-	padding: 40px 0;
+	padding: 30px 0;
 	box-shadow:inset 0px 0px 30px 0px rgba(0,0,0,.3);
 	//.right{
 		display: block;
@@ -1040,7 +1040,7 @@ Landing Page
 	}
 }
 .featurette-divider {
-  margin: 60px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
   border-top: 1px solid rgba(0,0,0,0.1);
 }
 .featurette-divider:first-child{
@@ -1071,7 +1071,7 @@ Landing Page
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
@@ -1486,9 +1486,9 @@ Responsive Web Design
 /*-- Navigation --*/
 .navbar{
 	.navbar-inner{
-
 	}
 	a.brand{
+		float: left;
 	}
 	ul.landing-nav{
 		position: absolute;
@@ -1510,6 +1510,11 @@ Responsive Web Design
 	}
 }
 
+/*-- drawer --*/
+.landing-nav.js{
+	display:none;
+}
+
 /*-- Transaction --*/
 #transaction-body{
 	float: left;
@@ -1517,7 +1522,6 @@ Responsive Web Design
 #transaction-sidebar{
 	margin-right: auto;
 }
-
 
 }
  
@@ -1555,6 +1559,12 @@ Responsive Web Design
 	}
 }
 
+
+/*-- drawer --*/
+.landing-nav.js{
+	display:none;
+}
+
 /*-- Landing Page --*/
 .landing{
 	#landing-masthead{
@@ -1562,6 +1572,16 @@ Responsive Web Design
 		h1{font-size:3.0em;}
 	}
 }
+
+#footer{
+	display: block;
+	margin-left: -20px;
+	margin-right: -20px;
+	.container{
+		padding: 0 20px;
+	}
+}
+
 
 }
  
@@ -1598,9 +1618,6 @@ Responsive Web Design
 }
 
 /*-- drawer --*/
-#menu{
-	color: @white;
-}
 .landing-nav.js{
 	display:none;
 }
@@ -1646,7 +1663,12 @@ Responsive Web Design
 }
 
 #footer{
-	width: 100%;
+	display: block;
+	margin-left: -20px;
+	margin-right: -20px;
+	.container{
+		padding: 0 20px;
+	}
 }
 
 /*-- Transaction --*/
