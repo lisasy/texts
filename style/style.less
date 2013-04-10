@@ -689,7 +689,6 @@ header{
 /*-- Sticky Mojo Edits --*/
 #transaction-body{
 	margin-left: auto;
-	//margin-right: 30px;
 }
 
 #transaction-sidebar{
@@ -1420,8 +1419,38 @@ Footer
 Responsive Web Design
 ************************/
 
-/* Large desktop ***************************/
-@media (min-width: 1200px) {}
+/* Large desktop ****************************************/
+@media (min-width: 1200px) {
+
+
+}
+
+/* in between... ******************************************/
+@media (min-width: 980px) and (max-width: 1119px) {
+
+/*-- Navigation --*/
+.navbar{
+	.navbar-inner{
+
+	}
+	a.brand{
+	}
+	ul.landing-nav li{
+		margin-left:-70px;
+		padding: 0 25px;
+	}
+}
+
+/*-- Transaction --*/
+#transaction-body{
+	float: left;
+}
+#transaction-sidebar{
+	margin-right: auto;
+}	
+
+}
+
  
 /* Portrait tablet to landscape and desktop **************************/
 @media (min-width: 768px) and (max-width: 979px) {
@@ -1432,16 +1461,15 @@ Responsive Web Design
 
 	}
 	a.brand{
-		margin-left: 25%;
-		margin-top: 0;
 	}
 	ul.landing-nav{
 		position: absolute;
 		margin-top: 60px;
 		background: black;
+		width: 100%;
 		li{
 			padding: 0;
-			width: 767px;
+			width: 100%;
 			a{
 				display: block;
 				margin: 0;
@@ -1452,6 +1480,14 @@ Responsive Web Design
 			}
 		}
 	}
+}
+
+/*-- Transaction --*/
+#transaction-body{
+	float: left;
+}
+#transaction-sidebar{
+	margin-right: auto;
 }
 
 
@@ -1475,9 +1511,10 @@ Responsive Web Design
 		position: absolute;
 		margin-top: 60px;
 		background: black;
+		width: 100%;
 		li{
 			padding: 0;
-			width: 767px;
+			width: 100%;
 			a{
 				display: block;
 				margin: 0;
@@ -1500,10 +1537,10 @@ Responsive Web Design
 
 }
  
-/* Landscape phones and down **************************/
+/* Landscape phones and down *************************************/
 @media (max-width: 480px) {
 
-/*-- Navigation --*/
+/*-- Navigation for Unlogged--*/
 .navbar{
 	.container{
 	}
@@ -1532,6 +1569,21 @@ Responsive Web Design
 	}
 }
 
+/*-- Navigation for Logged in --*/
+.navbar{
+	.form-search{
+		display: none;
+	}
+	.btn-group{
+		ul.dropdown-menu{
+			li{
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+}
+
 /*-- Landing Page --*/
 .landing{
 	#landing-masthead{
@@ -1552,5 +1604,9 @@ Responsive Web Design
 #footer{
 	width: 100%;
 }
+
+/*-- Transaction --*/
+#transaction-body{}
+#transaction-sidebar{}
 
 }

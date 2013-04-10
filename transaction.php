@@ -10,7 +10,7 @@
         <section id="transaction-body" class="span8">
             <header class="row">
                 <div class="span1">    
-                    <img src="img/lisa.jpg">
+                    <img src="img/lisa.jpg" class="hidden-phone">
                 </div>
                 <div class="span7">
                     <h5>You want to buy from</h5>
@@ -19,7 +19,7 @@
             </header>
             <article id="message-input" class="row">
                 <div class="chat-user span1">
-                    <img src="img/lisa.jpg">
+                    <img src="img/lisa.jpg" class="hidden-phone">
                     <h5>You</h5>
                 </div>
                 <div class="span5">
