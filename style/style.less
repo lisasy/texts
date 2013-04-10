@@ -3,7 +3,7 @@
 @white: #ffffff;
 
 @charcoal: #444444;
-@medium: #777777;
+@medium: #555;
 @lighttext: #aaa7a7;
 @button: #ccc;
 @side: #edecec;
@@ -843,7 +843,7 @@ Landing Page
 
 /*-- unlogged page --*/
 .navbar-inner{	
-	padding: 1px 0 3px 0;
+	padding: 3px 0;
 	height: 55px;
 	border-bottom: none;
 	background: @charcoal;
@@ -872,6 +872,7 @@ Landing Page
 			}
 		}
 		li a.btn{
+			margin-top: 0;
 			&:hover{
 				color: @white;
 				background: @green * 2/3;
@@ -1155,6 +1156,9 @@ nav#info{
 .info-body{
 	margin-left: auto;
 	padding-left: 40px;
+	h1{
+		margin-bottom: 40px;
+	}
 }
 
 /*-- BOX FOR IF CONTENT IS EMPTY --*/
@@ -1163,6 +1167,47 @@ nav#info{
 	border-radius: 30px;
 	padding: 30px;
 	margin: 40px;
+}
+
+
+/*-- Market --*/
+.market{
+	.row{
+		margin-bottom: 80px;
+	}
+	h2{
+		font-weight: 300;
+	}
+}
+
+/*-- Contact (twitter + facebook buttons) --*/
+
+#contact{
+	ul{
+		margin: 40px auto auto 0;
+		li{
+			margin-bottom: 10px;
+			img{
+				margin-top: -8px;
+				width: 36px;
+				height: auto;
+				float: left;
+			}
+			.twitter{
+				color: @charcoal;
+				background: #9AE4E8;
+				&:hover{
+					background: #86d5d9;
+				}
+			}
+			.twitter, .facebook{
+				font-weight: 300;
+				width: 70%;
+				font-size: 1.5em;
+				padding: 36px 48px;
+			}
+		}
+	}
 }
 
 /**********************************

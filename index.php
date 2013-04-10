@@ -16,7 +16,7 @@
                     <p class="lead"><strong>Texts.com</strong> allows students to buy and sell textbooks to one another on their campuses. Stop overpaying, sign up now.</p>
                     <!-- <a class="btn btn-green btn-large">Watch how it works</a> -->
                     <a href="school-confirmation.php" class="btn facebook">Sign up with Facebook</a>
-                    <p class="tool"><a href="#" data-toggle="tooltip" title="first tooltip">Why only Facebook?</a></p>
+                    <p class="tool"> <a href="#" id="why-facebook">Why Facebook only?</a></p>
 <!--                     <p><small>or</small></p>
                     <a href="#">Sign up with your email address</a> -->
                 </section>
@@ -24,8 +24,8 @@
         </div>
     <div class="row learn-more">
         <div class="span12">
-          <div class="btn-outerborder">
-            <a href="#marketing" class="btn btn-green btn-large learn-more-btn">Learn more</a>
+          <div id="learn-more-scroll">
+            <a id="scroll-to-marketing" href="#marketing" class="btn btn-green btn-large learn-more-btn">Learn more</a>
           </div>
         </div>
     </div>

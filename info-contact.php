@@ -8,13 +8,15 @@
 <div class="container">
   <div class="row">
   <?php include 'info-sidebar.php' ?>
-    <section class="info-body span7 offset1">
+    <section id="contact" class="info-body span7 offset1">
       <h1>Contact Us</h1>
       <p class="lead">Have any questions, concerns, or suggestions?</p>
       <p class="lead">Email us at <u>admin@texts.com</u></p>
       <ul>
-        <li><a href="">Follow us on Twitter</a></li>
-        <li><a href="">Like Texts.com on Facebook</a></li>
+        <li>
+          <a href="" class="btn twitter"><img src="img/twitter-logo.png"> Follow us on Twitter</a>
+        </li>
+        <li><a href="" class="btn facebook"><img src="img/facebook-logo.png"> Like Texts.com on Facebook</a></li>
       </ul>
     </section>
   </div>
