@@ -264,6 +264,21 @@ Admin Bar
 	}
 }
 
+#menu{
+	margin-top: 6px;
+	color: @white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	border: 3px solid @white;
+	border-radius: 6px;
+	&:hover{
+		color: @tan;
+		border: 3px solid @tan;
+	}
+}
+
 /**********************************
 Profile Page 
 ***********************************/
@@ -1422,8 +1437,11 @@ Responsive Web Design
 /* Large desktop ****************************************/
 @media (min-width: 1200px) {
 
-.drawer-menu{
+#menu{
 	display: none;
+}
+.landing-nav{
+	display: block;
 }
 
 }
@@ -1444,10 +1462,12 @@ Responsive Web Design
 	}
 }
 
-.drawer-menu{
+#menu{
 	display: none;
 }
-
+.landing-nav{
+	display: block;
+}
 
 /*-- Transaction --*/
 #transaction-body{
@@ -1605,10 +1625,18 @@ Responsive Web Design
 	#landing-masthead{
 		margin-left:0;
 		h1{font-size:2.0em;}
+		p{
+			font-size: 1.2em;
+		}
 		text-align: center;
 		.learn-more{
 			padding-top: 0;
 		}
+		.video{
+			border: none;
+			display: none;
+		}
+
 	}
 }
 

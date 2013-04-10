@@ -35,11 +35,16 @@
 		});
 
 		// drawer menu
-		$('.landing-nav').addClass('js').before('<div id="menu">Menu</div>');
+		$('.landing-nav').addClass('js').before('<div id="menu" class="pull-right">Menu</div>');
 		$('#menu').click(function(){
 			$('.landing-nav').toggle();
 		});
-		
+		$(window).resize(function(){
+			if(window.innerWidth > 768) {
+				$(".landing-nav").removeAttr("style");
+			}
+		});
+
 
 		//this must go at the end
 		$('nav#info,#transaction-sidebar').stickyMojo({footerID: '#footer', contentID: '.info-body,#transaction-body'});
