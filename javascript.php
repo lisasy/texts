@@ -34,6 +34,13 @@
 			title: 'We encourage you to use Facebook to log in so that you are connected to your campus network.'
 		});
 
+		// drawer menu
+		$('.landing-nav').addClass('js').before('<div id="menu">Menu</div>');
+		$('#menu').click(function(){
+			$('.landing-nav').toggle();
+		});
+		
+
 		//this must go at the end
 		$('nav#info,#transaction-sidebar').stickyMojo({footerID: '#footer', contentID: '.info-body,#transaction-body'});
 

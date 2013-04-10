@@ -1422,6 +1422,9 @@ Responsive Web Design
 /* Large desktop ****************************************/
 @media (min-width: 1200px) {
 
+.drawer-menu{
+	display: none;
+}
 
 }
 
@@ -1440,6 +1443,11 @@ Responsive Web Design
 		padding: 0 25px;
 	}
 }
+
+.drawer-menu{
+	display: none;
+}
+
 
 /*-- Transaction --*/
 #transaction-body{
@@ -1549,7 +1557,7 @@ Responsive Web Design
 	}
 	ul.landing-nav{
 		position: absolute;
-		margin-top: 50px;
+		margin-top: 40px;
 		background: black;
 		width: 100%;
 		li{
@@ -1567,6 +1575,14 @@ Responsive Web Design
 			}
 		}
 	}
+}
+
+/*-- drawer --*/
+#menu{
+	color: @white;
+}
+.landing-nav.js{
+	display:none;
 }
 
 /*-- Navigation for Logged in --*/
