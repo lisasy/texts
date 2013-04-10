@@ -979,6 +979,9 @@ Landing Page
 	img{
 		width: 140px;
 		height: auto;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
 	}
 	h2{
 		line-height: 1.1em;
@@ -1410,4 +1413,144 @@ Footer
 			color:@charcoal;
 		}
 	}
+}
+
+
+/***********************
+Responsive Web Design
+************************/
+
+/* Large desktop ***************************/
+@media (min-width: 1200px) {}
+ 
+/* Portrait tablet to landscape and desktop **************************/
+@media (min-width: 768px) and (max-width: 979px) {
+
+/*-- Navigation --*/
+.navbar{
+	.navbar-inner{
+
+	}
+	a.brand{
+		margin-left: 25%;
+		margin-top: 0;
+	}
+	ul.landing-nav{
+		position: absolute;
+		margin-top: 60px;
+		background: black;
+		li{
+			padding: 0;
+			width: 767px;
+			a{
+				display: block;
+				margin: 0;
+				border-bottom: 1px solid @side;
+				text-align: center;
+			}
+			a.btn{
+			}
+		}
+	}
+}
+
+
+}
+ 
+/* Landscape phone to portrait tablet ***************************/
+@media (max-width: 767px) {
+
+/*-- Navigation --*/
+.navbar{
+	height: 70px;
+	.navbar-inner{
+
+	}
+	a.brand{
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 0;
+	}
+	ul.landing-nav{
+		position: absolute;
+		margin-top: 60px;
+		background: black;
+		li{
+			padding: 0;
+			width: 767px;
+			a{
+				display: block;
+				margin: 0;
+				border-bottom: 1px solid @side;
+				text-align: center;
+			}
+			a.btn{
+			}
+		}
+	}
+}
+
+/*-- Landing Page --*/
+.landing{
+	#landing-masthead{
+		margin-left:0;
+		h1{font-size:3.0em;}
+	}
+}
+
+}
+ 
+/* Landscape phones and down **************************/
+@media (max-width: 480px) {
+
+/*-- Navigation --*/
+.navbar{
+	.container{
+	}
+	a.brand{
+		width: 50%;
+	}
+	ul.landing-nav{
+		position: absolute;
+		margin-top: 50px;
+		background: black;
+		width: 100%;
+		li{
+			padding: 0;
+			width: 100%;
+			a{
+				text-align: center;
+				display: block;
+				margin: 0;
+				border-bottom: 1px solid @side;
+				border-radius: 0;
+				&:hover{
+					border-radius: 0;
+				}
+			}
+		}
+	}
+}
+
+/*-- Landing Page --*/
+.landing{
+	#landing-masthead{
+		margin-left:0;
+		h1{font-size:2.0em;}
+		text-align: center;
+		.learn-more{
+			padding-top: 0;
+		}
+	}
+}
+
+.market-preview{
+	border-top: 1px solid @side;
+	text-align: center;
+}
+
+#footer{
+	width: 100%;
+}
+
 }

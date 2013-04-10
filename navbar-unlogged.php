@@ -5,7 +5,7 @@
                 <div class="span2">
                     <a class="brand" href="index.php"><img src="img/logo-white.png"></a>
                 </div>
-                <div class="span5 offset3">
+                <div class="drawer span5 offset3">
                     <div class="pull-right">
                     <ul class="nav landing-nav">
                       <li class="active"><a href="index.php">Home</a></li>
