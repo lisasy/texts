@@ -9,7 +9,7 @@
 <script>
 
 		function scrollToElement(selector, time, verticalOffset) {
-		    time = typeof(time) != 'undefined' ? time : 1000;
+		    time = typeof(time) != 'undefined' ? time : 500;
 		    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
 		    element = $(selector);
 		    offset = element.offset();
