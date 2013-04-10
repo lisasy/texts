@@ -2,7 +2,7 @@
 <body>     
 <?php include 'navbar.php' ?>
 
-<div class="body-content pull-up">
+<div id="find-page" class="body-content">
 
 	<div class="container">
 		<header class="row">
