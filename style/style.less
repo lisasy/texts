@@ -407,7 +407,7 @@ Inbox
 ***********************************/
 ul.inbox{
 	li.message-row{
-		max-height:64px;
+		min-height:70px;
 		width: 100%;
 		display: inline-block;
 		padding: 10px 10px 12px 10px;
@@ -1565,6 +1565,11 @@ Responsive Web Design
 	}
 }
 
+.navbar-charcoal{
+	ul.landing-nav{
+		background: @charcoal;
+	}
+}
 
 /*-- drawer --*/
 .landing-nav.js{
@@ -1610,6 +1615,11 @@ Responsive Web Design
 
 /*-- Inventory --*/
 
+/* profile header */
+#profile-header{
+	text-align: center;
+}
+
 /* profile snapshot */
 ul#profile-action-buttons{
 	display: block;
@@ -1647,11 +1657,35 @@ nav#profile-sidebar{
 /* profile content*/
 #profile-content{
 	text-align: center;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 	header{
-		margin-left: -30px;
+		margin-left: -10px;
+		ul.nav{
+			width: 100%;
+			li{
+				width: 45%;
+				display: inline;
+			}
+		}
 	}
 	.book-asset{
+		margin: 3px auto;
+		display: block;
 		.book-thumb{display:none;}
+		.book-description{min-height:80px;}
+	}
+}
+
+/*-- Info --*/
+nav#info{
+	margin-top: -48px;
+	ul.nav, ul.nav-list{
+			padding-bottom: -40px;
+		li:last-child{
+
+		}
 	}
 }
 

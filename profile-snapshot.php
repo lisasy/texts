@@ -2,7 +2,7 @@
 <div id="profile-header" class="row">
     <span class="span2">
         <div class="profile-image">
-        <img class="hidden-phone" src="img/lisa.jpg">
+            <img class="hidden-phone" src="img/lisa.jpg">
         </div>
     </span>
     <span class="span4"><h1>Lisa Sy</h1></span>

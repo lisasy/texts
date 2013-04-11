@@ -30,13 +30,13 @@
                 <ul class="inbox table span9">
 
                     <li class="message-row">
-                        <img src="img/ben.png">
+                        <img src="img/ben.png" class="hidden-phone">
                         <div class="chat-preview span6">
                             <h5>Ben Halpern</h5>    
                             <a href=""><strong>Yeah, I am totally interested in buying that book...</strong></a>
                             <p><small>April 5</small></p>
                         </div>
-                        <div class="books-in-queue">
+                        <div class="books-in-queue hidden-phone">
                             <ul>
                                 <li>Wild</li>
                                 <li>Modern China</li>
