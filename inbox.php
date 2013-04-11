@@ -28,9 +28,10 @@
             </header>
             <article class="row">
                 <ul class="inbox table span9">
+
                     <li class="message-row">
                         <img src="img/ben.png">
-                        <div class="chat-preview">
+                        <div class="chat-preview span6">
                             <h5>Ben Halpern</h5>    
                             <a href=""><strong>Yeah, I am totally interested in buying that book...</strong></a>
                             <p><small>April 5</small></p>
@@ -46,6 +47,7 @@
                             <h5 class="active">Active</h5>
                         </div>
                     </li>
+
                     <li class="message-row">
                         <img src="img/ben.png">
                         <div class="chat-preview">

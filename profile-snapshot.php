@@ -1,6 +1,10 @@
 <div class="container">
 <div id="profile-header" class="row">
-    <span class="span2"><img class="profile-image" src="img/lisa.jpg"></span>
+    <span class="span2">
+        <div class="profile-image">
+        <img class="hidden-phone" src="img/lisa.jpg">
+        </div>
+    </span>
     <span class="span4"><h1>Lisa Sy</h1></span>
     <span class="span6">
         <ul id="profile-action-buttons" class="pull-right">
@@ -10,7 +14,7 @@
     </span>
 </div>
 
-<ul id="profile-snapshot" class="row">
+<ul id="profile-snapshot" class="row hidden-phone">
     <li class="membership">
         <p><i class="icon-map-marker icon-white"></i> Wesleyan University</p>
         <p><i class="icon-user icon-white"></i> Joined March 2013</p>
